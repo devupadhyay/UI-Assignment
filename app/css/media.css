@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1199px) {
+  .item-count {
+    display: block;
+    text-align: center;
+    margin-bottom: 4px; }
+  .mob-break {
+    flex-wrap: wrap; }
+  .item-price {
+    width: 100%;
+    margin-bottom: 4px;
+    justify-content: center; }
+  .primary-action {
+    display: table;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 991px) {
+  .item-total-wrap ul,
+  .item-total-wrap h4 {
+    padding: 8px; }
+  .item-total-wrap h4 {
+    padding-bottom: 0; }
+  .product-img.sm {
+    width: 18px;
+    height: 18px; }
+  .qty-options input {
+    width: 26px;
+    height: 26px; }
+  .container {
+    padding-left: 0;
+    padding-right: 0; }
+  .item-total-wrap,
+  .cart-summary,
+  .item-info,
+  .item-add-msg {
+    font-size: 10px; }
+  .product-img-wrap {
+    min-height: 110px;
+    max-height: 110px;
+    margin-bottom: 12px; }
+  .cart-summary table tbody tr:first-child td {
+    padding-top: 8px; }
+  .cart-summary {
+    padding-bottom: 8px;
+    margin-bottom: 16px; }
+  .item-list {
+    padding-top: 12px; }
+  .offer-note {
+    top: 4px;
+    font-size: 8px;
+    padding: 4px 2px; }
+  .item-price .new {
+    margin-left: 4px; }
+  .item-info {
+    position: relative; }
+  .item-count {
+    margin-bottom: 4px;
+    display: block; } }
+
+@media only screen and (max-width: 767px) {
+  .pl-wrap {
+    padding-right: 8px; }
+  .cs-wrap {
+    padding-left: 16px; }
+  .cs-wrap,
+  .pl-wrap {
+    width: 100%;
+    position: relative; } }
+
+@media only screen and (max-width: 481px) {
+  .col-4 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 16px; }
+  .item-add-msg {
+    padding: 4px;
+    font-size: 10px; } }
+
+@media (min-width: 992px) {
+  .cs-wrap.cs-wrap-md {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; }
+  .pl-wrap.pl-wrap-md {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%; } }
+
+@media (min-width: 768px) {
+  .cs-wrap-md {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%; }
+  .pl-wrap-md {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%; } }

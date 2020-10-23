@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <!--endbuild-->
+    <title>UI Assignment</title>
+</head>
+
+<body class="ps400">
+
+    <div class="container">
+        <header id="appHeader"></header>
+        <main>
+            <div class="row no-gutters">
+                <div class="d-flex flex-wrap pl-wrap pl-wrap-md" id="productListing"></div>
+                <div class="cs-wrap cs-wrap-md">
+                    <h4 class="ps400" style="margin-bottom: 0.5rem;">Cart Summary</h4>
+                    <div class="cart-summary">
+                        <table class="show-cart"></table>
+                    </div>
+                    <div id="order-details" class="item-total-wrap"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!--build:js js/main.min.js -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/widget/header.widget.js"></script>
+    <script src="js/widget/product.widget.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>

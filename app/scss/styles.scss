@@ -1,0 +1,251 @@
+$grey_color: #ccc;
+$light-grey: #eee;
+$text-color: #444;
+$container_width: 1470px;
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+header {
+    padding: 8px;
+    border-top: 1px solid $grey_color;
+    border-bottom: 1px solid $grey_color;
+
+    h1 {
+        font-size: 1rem;
+        color: $text-color;
+    }
+}
+
+.item-add-msg {
+    background: #30d030;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 2px;
+    opacity: 0;
+    transition: all 0.5s;
+
+    &.show {
+        opacity: 1;
+        transition: all 0.5s;
+    }
+}
+
+main {
+    padding: 1rem 0;
+}
+
+.col-4 {
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+.pl-wrap {
+    padding-left: 8px;
+    padding-right: 4px;
+}
+
+.cs-wrap {
+    padding-right: 16px;
+    padding-left: 12px;
+}
+
+.item-list {
+    padding-top: 24px;
+    position: relative;
+    border: 2px solid $grey_color;
+}
+
+.product-img-wrap {
+    width: 75%;
+    min-height: 145px;
+    max-height: 145px;
+    margin: 0 auto 24px;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+}
+
+.product-img {
+    max-width: 100%;
+
+    &.sm {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 0;
+        margin-right: 4px;
+        object-fit: cover;
+    }
+}
+
+.item-info {
+    padding: 4px;
+    color: $text-color;
+    background: $light-grey;
+}
+
+.item-price {
+    .new {
+        margin-left: 8px;
+    }
+}
+
+.primary-action {
+    border: 2px solid #67a7f1;
+    color: #67a7f1;
+    padding: 2px 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 4px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    // &.disabled {
+    //     pointer-events: none;
+    //     opacity: 0.5;
+    //     background: #fff;
+    // }
+
+    &:hover {
+        border-color: #2173d3;
+    }
+
+    &:active {
+        color: #2173d3;
+    }
+
+    &:focus {
+        outline: none;
+        border-color: #67a7f1;
+    }
+}
+
+.offer-note {
+    position: absolute;
+    top: 24px;
+    left: -2px;
+    color: #fff;
+    font-size: 10px;
+    padding: 8px 4px;
+    background: #30d030;
+}
+
+.item-total-wrap {
+    border: 2px solid $grey_color;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+
+    &:empty {
+        display: none;
+    }
+
+    h4 {
+        padding: 8px 16px 0;
+    }
+
+    ul {
+        padding: 8px 16px;
+
+        li {
+            margin-bottom: 4px;
+
+            &:first-child {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+
+.order-total {
+    background: $light-grey;
+
+    ul li {
+        &:first-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.cart-summary {
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $grey_color;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        thead tr {
+            border-top: 1px solid $grey_color;
+            border-bottom: 1px solid $grey_color;
+        }
+
+        th {
+            padding: 8px 16px;
+
+            &:first-child {
+                padding: 4px 0;
+                text-align: left;
+            }
+        }
+
+        tbody tr {
+            border-bottom: 4px solid #fff;
+
+            &:first-child td {
+                padding-top: 16px;
+            }
+
+            td {
+                text-align: center;
+
+                &:first-child {
+                    width: 170px;
+                    padding-right: 8px;
+                }
+            }
+        }
+    }
+}
+
+.items-replica {
+    border: 1px solid $light-grey;
+    border-radius: 1px;
+    padding: 2px;
+
+    span:not(.remove-item) {
+        display: block;
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.remove-item {
+    font-size: 20px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.qty-options {
+    input {
+        width: 30px;
+        height: 30px;
+        margin: 0 4px;
+        text-align: center;
+    }
+
+    span {
+        font-size: 20px;
+        padding: 0 4px;
+        cursor: pointer;
+    }
+}

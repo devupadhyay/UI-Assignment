@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'PublicSansSemiBold';
+    src: url('../fonts/PublicSansSemiBold.eot');
+    src: url('../fonts/PublicSansSemiBold.eot') format('embedded-opentype'),
+        url('../fonts/PublicSansSemiBold.woff2') format('woff2'),
+        url('../fonts/PublicSansSemiBold.woff') format('woff'),
+        url('../fonts/PublicSansSemiBold.ttf') format('truetype'),
+        url('../fonts/PublicSansSemiBold.svg#PublicSansSemiBold') format('svg');
+}
+
+.ps600 {
+    font-family: 'PublicSansSemiBold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PublicSansRegular';
+    src: url('../fonts/PublicSansRegular.eot');
+    src: url('../fonts/PublicSansRegular.eot') format('embedded-opentype'),
+        url('../fonts/PublicSansRegular.woff2') format('woff2'),
+        url('../fonts/PublicSansRegular.woff') format('woff'),
+        url('../fonts/PublicSansRegular.ttf') format('truetype'),
+        url('../fonts/PublicSansRegular.svg#PublicSansRegular') format('svg');
+}
+
+.ps400 {
+    font-family: 'PublicSansRegular';
+    font-weight: normal;
+    font-style: normal;
+}
